@@ -2,17 +2,44 @@
   <mat-sidenav
     #drawer
     class="sidenav"
-    fixedInViewport
+    [ngClass]="{ hidden: (isHandset$ | async) === false }"
+    fixedInViewport="false"
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="(isHandset$ | async) === false"
   >
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="/agenda">Agenda tu cita</a>
-      <a mat-list-item href="/directoriomedico">Directorio Medico</a>
-      <a mat-list-item href="/cotizacirugia">Cotiza tu Cirugia</a>
-      <a mat-list-item href="/medicoencasa">Medico en casa</a>
+      <a
+        mat-list-item
+        [routerLink]="['/']"
+        routerLinkActive="router-link-active"
+        >Home</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/agenda']"
+        routerLinkActive="router-link-active"
+        >Agenda tu cita</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/directoriomedico']"
+        routerLinkActive="router-link-active"
+        >Directorio Medico</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/cotizacirugia']"
+        routerLinkActive="router-link-active"
+        >Cotiza tu Cirugia</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/medicoencasa']"
+        routerLinkActive="router-link-active"
+        >Medico en casa</a
+      >
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -27,6 +54,37 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>SaludApp</span>
+      <span class="spacer"></span>
+      <a
+        mat-list-item
+        [routerLink]="['/']"
+        routerLinkActive="router-link-active"
+        >Home</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/agenda']"
+        routerLinkActive="router-link-active"
+        >Agenda tu cita</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/directoriomedico']"
+        routerLinkActive="router-link-active"
+        >Directorio Medico</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/cotizacirugia']"
+        routerLinkActive="router-link-active"
+        >Cotiza tu Cirugia</a
+      >
+      <a
+        mat-list-item
+        [routerLink]="['/medicoencasa']"
+        routerLinkActive="router-link-active"
+        >Medico en casa</a
+      >
     </mat-toolbar>
     <ng-content></ng-content>
   </mat-sidenav-content>

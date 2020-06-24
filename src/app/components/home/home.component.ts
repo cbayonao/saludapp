@@ -10,8 +10,8 @@ export class HomeComponent implements OnInit {
   public message: string;
 
   constructor() {
-    this.saludo = 'Bienvenidos!';
-    this.message = 'Servicios de salud en linea';
+    this.saludo = 'Bienvenidos a SaludApp!';
+    this.message = 'Tu salud a un clic';
   }
 
   ngOnInit(): void {}
