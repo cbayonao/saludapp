@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #efefef;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 16px;
+  font-size: 17px;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 2px;
+  border-spacing: 0;
+  margin: 0 0 32px;
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+th {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 32px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.54);
+  background: rgba(0, 0, 0, 0.03);
+}
+
+td {
+  color: rgba(0, 0, 0, 0.54);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  font-weight: 400;
+  padding: 8px 30px;
+}
+
+.container {
+  margin-top: 7em;
+}

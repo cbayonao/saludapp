@@ -1,0 +1,24 @@
+<app-main-nav></app-main-nav>
+<!-- <app-main-header></app-main-header> -->
+<div class="containerMedicoKsa {">
+  <mat-toolbar color="primary">
+    <span>{{ titulo }}</span>
+    <span class="example-fill-remaining-space"></span>
+  </mat-toolbar>
+  <div>
+    <form>
+      <div class="containerInput">
+        <app-form-tu-direccion></app-form-tu-direccion>
+      </div>
+      <div class="containerInput">
+        <app-form-date></app-form-date>
+      </div>
+      <div class="containerInput">
+        <app-form-hour></app-form-hour>
+      </div>
+      <app-form-data-user></app-form-data-user>
+      <button mat-raised-button color="primary">{{ nameBut }}</button>
+    </form>
+  </div>
+</div>
+<app-main-footer></app-main-footer>

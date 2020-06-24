@@ -1,0 +1,38 @@
+<!-- <app-main-header></app-main-header> -->
+<app-main-nav></app-main-nav>
+<div class="containerAgenda">
+  <mat-toolbar color="primary">
+    <span>{{ titlePage }}</span>
+    <span class="example-fill-remaining-space"></span>
+  </mat-toolbar>
+
+  <div class="containerForm">
+    <form>
+      <div class="forms">
+        <div class="container">
+          <app-form-sede></app-form-sede>
+        </div>
+        <div class="container">
+          <app-form-especialidad></app-form-especialidad>
+        </div>
+        <div class="container">
+          <app-form-medico></app-form-medico>
+        </div>
+        <div class="container">
+          <app-form-date></app-form-date>
+        </div>
+        <div class="container">
+          <app-form-hour></app-form-hour>
+        </div>
+      </div>
+      <div class="data-personal">
+        <app-form-data-user></app-form-data-user>
+      </div>
+      <div class="button">
+        <button mat-raised-button color="primary">{{ nameBut }}</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<app-main-footer></app-main-footer>

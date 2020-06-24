@@ -1,0 +1,9 @@
+<h4>{{ titulo }}</h4>
+<mat-form-field>
+  <mat-label>{{ titulo }}</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let option of options" [value]="option.value">
+      {{ option.viewValue }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

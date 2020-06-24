@@ -1,0 +1,11 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerHorario {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}

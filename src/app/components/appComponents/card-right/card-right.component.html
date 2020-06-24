@@ -1,0 +1,74 @@
+<div class="containerCard">
+  <mat-card>
+    <mat-card-header class="title-card">
+      <mat-card-title class="class-card-title"> {{ titulo1 }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      src="{{ urlImg1 }}"
+      alt="{{ titulo1 }}"
+      width="1400"
+      height="600"
+    />
+    <mat-card-content>
+      <p>
+        {{ detalle1 }}
+        {{ detalle1 }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="card-actions">
+      <button
+        mat-raised-button
+        color="primary"
+        onclick="location.href='/agenda'"
+      >
+        {{ nameBut1 }}
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<div class="containerCard">
+  <mat-card>
+    <mat-card-header class="title-card">
+      <mat-card-title class="class-card-title"> {{ titulo2 }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      src="{{ urlImg2 }}"
+      alt="{{ titulo2 }}"
+      width="1400"
+      height="600"
+    />
+    <mat-card-content>
+      <p>
+        {{ detalle2 }}
+        {{ detalle2 }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="card-actions">
+      <button
+        mat-raised-button
+        color="accent"
+        onclick="location.href='/directoriomedico'"
+      >
+        {{ nameBut2 }}
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  <!-- <div class="containerImage">
+    <img src="{{ urlImg2 }}" alt="{{ titulo2 }}" width="450" height="247" />
+  </div>
+  <div class="containerData">
+    <h2>{{ titulo2 }}</h2>
+    <p>{{ detalle2 }}</p>
+    <div class="action">
+      <button
+        mat-raised-button
+        color="warn"
+        onclick="location.href='/directoriomedico'"
+      >
+        {{ nameBut2 }}
+      </button>
+    </div>
+  </div> -->
+</div>

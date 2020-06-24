@@ -1,0 +1,14 @@
+.containerMedicoKsa {
+  margin: 4em 2em 4em 2em;
+}
+
+.containerInput {
+  border: 1px solid #003047;
+  border-radius: 4px;
+  background-color: #e0ceff;
+  padding: 1em;
+  margin: 1em;
+  width: 250px;
+  color: #404040;
+  font-weight: bold;
+}

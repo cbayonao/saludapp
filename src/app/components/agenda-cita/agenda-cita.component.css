@@ -1,0 +1,33 @@
+.containerAgenda {
+  margin: 4em 2em 4em 2em;
+}
+.container {
+  border: 1px solid #003047;
+  border-radius: 4px;
+  background-color: #e0ceff;
+  padding: 1em;
+  margin: 1em;
+  width: 250px;
+  color: #404040;
+  font-weight: bold;
+}
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+  background-color: #007bff;
+  border: 1px solid #090c0f;
+  border-radius: 4px;
+  font-size: 17px;
+  color: white;
+}

@@ -1,0 +1,56 @@
+button {
+  width: 70%;
+  height: 50px;
+  margin: 5em 3em 5em 3em;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2em;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.action {
+  justify-content: center;
+}
+
+.containerImage {
+  margin: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.title-card {
+  display: flex;
+  justify-content: center;
+}
+
+.class-card-title {
+  font-size: 200%;
+}
+
+mat-card {
+  padding: 3em;
+}

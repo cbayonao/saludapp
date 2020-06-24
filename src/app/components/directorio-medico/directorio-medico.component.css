@@ -1,0 +1,10 @@
+.containerDirectorio {
+  margin: 4em 2em 4em 2em;
+}
+
+.containerNav {
+  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
