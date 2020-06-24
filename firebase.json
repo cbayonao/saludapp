@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "saludApp2/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
