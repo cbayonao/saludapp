@@ -14,3 +14,11 @@
 .title {
   margin-top: 3em;
 }
+
+mat-card {
+  width: 500px;
+}
+
+mat-form-field {
+  text-align: center;
+}

@@ -1,45 +1,47 @@
 <div class="containerGen">
   <h2 class="title">Ingresa Tus datos personales</h2>
-  <div class="containerDataUser">
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>Ingresa tu nombre</mat-label>
-        <input matInput placeholder="Nombre" value="" />
-      </mat-form-field>
+  <mat-card>
+    <div class="containerDataUser">
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Nombre</mat-label>
+          <input matInput placeholder="Nombre" value="" />
+        </mat-form-field>
+      </div>
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Apellidos</mat-label>
+          <input matInput placeholder="Apellidos" value="" />
+        </mat-form-field>
+      </div>
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>{{ title }}</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let tipoid of tipoids" [value]="tipoid.value">
+              {{ tipoid.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Numero de identificacion</mat-label>
+          <input matInput placeholder="Numero de identificacion" value="" />
+        </mat-form-field>
+      </div>
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Ingresa tu correo electrónico</mat-label>
+          <input matInput placeholder="Correo electronico" value="" />
+        </mat-form-field>
+      </div>
+      <div class="containerInput">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Ingresa tu numero telefónico</mat-label>
+          <input matInput placeholder="Numero de telefonico" value="" />
+        </mat-form-field>
+      </div>
     </div>
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>Ingresa tus apellidos</mat-label>
-        <input matInput placeholder="Apellidos" value="" />
-      </mat-form-field>
-    </div>
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>{{ title }}</mat-label>
-        <mat-select>
-          <mat-option *ngFor="let tipoid of tipoids" [value]="tipoid.value">
-            {{ tipoid.viewValue }}
-          </mat-option>
-        </mat-select>
-      </mat-form-field>
-    </div>
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>Ingresa tu numero de identificacion</mat-label>
-        <input matInput placeholder="Numero de identificacion" value="" />
-      </mat-form-field>
-    </div>
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>Ingresa tu correo electrónico</mat-label>
-        <input matInput placeholder="Correo electronico" value="" />
-      </mat-form-field>
-    </div>
-    <div class="containerInput">
-      <mat-form-field class="full-width">
-        <mat-label>Ingresa tu numero telefónico</mat-label>
-        <input matInput placeholder="Numero de telefonico" value="" />
-      </mat-form-field>
-    </div>
-  </div>
+  </mat-card>
 </div>

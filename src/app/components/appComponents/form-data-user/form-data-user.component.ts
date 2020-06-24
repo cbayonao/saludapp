@@ -26,7 +26,7 @@ export class FormDataUserComponent implements OnInit {
   public numTel: string;
 
   constructor() {
-    this.title = 'Ingresa tu tipo de identificación';
+    this.title = 'Tipo de identificación';
   }
 
   ngOnInit(): void {}

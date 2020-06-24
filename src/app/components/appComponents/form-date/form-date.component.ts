@@ -10,7 +10,7 @@ export class FormDateComponent implements OnInit {
   public time: string;
 
   constructor() {
-    this.titulo = 'Elige la fecha de tu cita';
+    this.titulo = 'Elige la fecha';
     this.time = 'date';
   }
 
