@@ -18,7 +18,7 @@ p {
   font-size: 17px;
 }
 
-table {
+/* table {
   border-collapse: collapse;
   border-radius: 2px;
   border-spacing: 0;
@@ -41,7 +41,7 @@ td {
   border: 1px solid rgba(0, 0, 0, 0.03);
   font-weight: 400;
   padding: 8px 30px;
-}
+} */
 
 .container {
   margin-top: 7em;
