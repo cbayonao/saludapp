@@ -25,8 +25,7 @@ export class CardLeftComponent implements OnInit {
     this.detalle2 =
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
     this.nameBut2 = 'Solicitar';
-    this.urlImg2 =
-      'https://cdn.pixabay.com/photo/2017/03/14/03/20/nurse-2141808_960_720.jpg';
+    this.urlImg2 = 'https://source.unsplash.com/UB0v9jJELds/1600x900';
   }
 
   ngOnInit(): void {}
