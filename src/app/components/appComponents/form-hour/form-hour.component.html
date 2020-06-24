@@ -1,11 +1,23 @@
 <div>
   <p>{{ titulo }}</p>
-  <input
+  <mat-form-field appearance="fill">
+    <mat-label>Hora</mat-label>
+    <input
+      matInput
+      type="time"
+      id="{{ hour }}"
+      name="{{ hour }}"
+      value="12:00"
+      min="06:00"
+      max="20:00"
+    />
+  </mat-form-field>
+  <!-- <input
     type="time"
     id="{{ hour }}"
     name="{{ hour }}"
     value="00:00"
     min="06:00"
     max="20:00"
-  />
+  /> -->
 </div>

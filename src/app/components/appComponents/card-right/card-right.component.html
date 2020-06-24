@@ -13,7 +13,8 @@
       <button
         mat-raised-button
         color="primary"
-        onclick="location.href='/agenda'"
+        [routerLink]="['/agenda']"
+        routerLinkActive="router-link-active"
       >
         {{ nameBut1 }}
       </button>
@@ -35,7 +36,8 @@
       <button
         mat-raised-button
         color="accent"
-        onclick="location.href='/directoriomedico'"
+        [routerLink]="['/directoriomedico']"
+        routerLinkActive="router-link-active"
       >
         {{ nameBut2 }}
       </button>

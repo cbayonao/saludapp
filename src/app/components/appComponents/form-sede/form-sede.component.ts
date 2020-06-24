@@ -19,7 +19,7 @@ export class FormSedeComponent implements OnInit {
   public titulo: string;
 
   constructor() {
-    this.titulo = 'Escoge la sede que prefieres';
+    this.titulo = 'Escoge la sede';
   }
 
   ngOnInit(): void {}

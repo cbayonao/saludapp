@@ -1,19 +1,14 @@
-.containerDataUser {
-  margin-top: 2em;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .containerGen {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.full-width {
-  width: 400px;
+.containerDataUser {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {

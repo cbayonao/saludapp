@@ -20,7 +20,7 @@ export class FormEspecialidadComponent implements OnInit {
   public titulo: string;
 
   constructor() {
-    this.titulo = 'Escoge la especialidad que necesitas';
+    this.titulo = 'Escoge la especialidad';
   }
 
   ngOnInit(): void {}

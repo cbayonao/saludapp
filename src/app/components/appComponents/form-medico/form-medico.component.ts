@@ -20,7 +20,7 @@ export class FormMedicoComponent implements OnInit {
   public titulo: string;
 
   constructor() {
-    this.titulo = 'Escoge el médico que te atenderá';
+    this.titulo = 'Escoge el médico';
   }
 
   ngOnInit(): void {}

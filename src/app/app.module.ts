@@ -14,6 +14,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatInputModule } from '@angular/material/input';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatNativeDateModule } from '@angular/material/core';
 
 import { Page404Component } from './components/page404/page404.component';
 import { AgendaCitaComponent } from './components/agenda-cita/agenda-cita.component';
@@ -105,6 +107,8 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatDividerModule,
+    MatNativeDateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
