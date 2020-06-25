@@ -16,7 +16,7 @@ export class CardLeftComponent implements OnInit {
   public urlImg2: string;
 
   constructor() {
-    this.titulo1 = 'CotizaCirugia';
+    this.titulo1 = 'Cotiza tu cirugía';
     this.detalle1 =
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
     this.nameBut1 = 'Cotizar';

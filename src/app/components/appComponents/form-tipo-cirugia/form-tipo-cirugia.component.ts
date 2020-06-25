@@ -12,14 +12,14 @@ interface Option {
 })
 export class FormTipoCirugiaComponent implements OnInit {
   options: Option[] = [
-    { value: 'tipo-1', viewValue: 'Cirugia plastica' },
-    { value: 'tipo-2', viewValue: 'Cirugia pediatrica' },
-    { value: 'tipo-3', viewValue: 'Cirugia Maxilofacial' },
+    { value: 'tipo-1', viewValue: 'Cirugía plastica' },
+    { value: 'tipo-2', viewValue: 'Cirugía pediatrica' },
+    { value: 'tipo-3', viewValue: 'Cirugía Maxilofacial' },
   ];
   public titulo: string;
 
   constructor() {
-    this.titulo = 'Escoge el tipo de cirugia que quieres cotizar';
+    this.titulo = 'Escoge el tipo de cirugía que quieres cotizar';
   }
 
   ngOnInit(): void {}

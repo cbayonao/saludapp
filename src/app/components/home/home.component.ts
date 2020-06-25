@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   public message: string;
 
   constructor() {
-    this.saludo = 'Bienvenidos a SaludApp!';
+    this.saludo = 'Bienvenidos a SaludApp plataforma de Salud!';
     this.message = 'Tu salud a un clic';
   }
 

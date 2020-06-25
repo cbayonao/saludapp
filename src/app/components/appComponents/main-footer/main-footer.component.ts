@@ -9,7 +9,7 @@ export class MainFooterComponent implements OnInit {
   public myFooter: string;
 
   constructor() {
-    this.myFooter = '© SaludApp Todos los derechos reservados';
+    this.myFooter = 'Copyright © SaludApp 2020';
   }
 
   ngOnInit(): void {}

@@ -9,7 +9,7 @@ export class DirectorioMedicoComponent implements OnInit {
   public titulo: string;
 
   constructor() {
-    this.titulo = 'Directorio Medico';
+    this.titulo = 'Directorio Médico';
   }
 
   ngOnInit(): void {}

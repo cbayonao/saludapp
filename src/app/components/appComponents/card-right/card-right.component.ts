@@ -21,10 +21,10 @@ export class CardRightComponent implements OnInit {
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
     this.nameBut1 = 'Agendar';
     this.urlImg1 = 'https://source.unsplash.com/hIgeoQjS_iE/1600x900';
-    this.titulo2 = 'Directorio Medico';
+    this.titulo2 = 'Directorio de médicos';
     this.detalle2 =
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
-    this.nameBut2 = 'Buscar medico';
+    this.nameBut2 = 'Buscar médico';
     this.urlImg2 = 'https://source.unsplash.com/afW1hht0NSs/1600x900';
   }
 

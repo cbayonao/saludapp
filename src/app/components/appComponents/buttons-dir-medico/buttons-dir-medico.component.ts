@@ -9,7 +9,7 @@ export class ButtonsDirMedicoComponent implements OnInit {
   public options: [string, string];
 
   constructor() {
-    this.options = ['Agenda tu cita', 'Cotiza Cirugia'];
+    this.options = ['Agenda tu cita', 'Cotiza cirugía'];
   }
 
   ngOnInit(): void {}

@@ -11,9 +11,9 @@ export class FormHistoriaClinicaComponent implements OnInit {
   public placeHol: string;
 
   constructor() {
-    this.titulo = 'Adjunta tu historia clinica';
+    this.titulo = 'Adjunta tu historia clínica';
     this.id = 'historia-clinica';
-    this.placeHol = 'Historia Clinica';
+    this.placeHol = 'Historia clínica';
   }
 
   ngOnInit(): void {}

@@ -12,7 +12,7 @@ export class FormAntecedentesMedicosComponent implements OnInit {
 
   constructor() {
     this.titulo =
-      'Ingresa tus antecedentes medicos, medicamentos actuales y otras consideraciones.';
+      'Ingresa tus antecedentes médicos, medicamentos actuales y otras consideraciones.';
     this.id = 'antecedentes';
     this.plaHolder = 'Ingresa los detalles de tu salud';
   }
