@@ -9,9 +9,9 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   // Pendiente crear api en firebase
-  // getData() {
-  //   return this.http.get<Data[]>(
-  //     'https://us-central1-cbo-dev-api.cloudfunctions.net/myapi'
-  //   );
-  // }
+  getData() {
+    return this.http.get<Data[]>(
+      'http://dummy.restapiexample.com/api/v1/employees'
+    );
+  }
 }
