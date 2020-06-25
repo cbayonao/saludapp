@@ -9,3 +9,11 @@
   flex-direction: row;
   align-items: flex-start;
 }
+
+.container-buttons {
+  margin: 2em 0 2em 0;
+}
+
+.horario {
+  margin: 2em 0 2em 0;
+}

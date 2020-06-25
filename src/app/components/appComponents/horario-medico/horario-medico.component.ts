@@ -1,20 +1,31 @@
 import { Component, OnInit } from '@angular/core';
 
+export interface PeriodicElement {
+  dia: string;
+  desde: string;
+  hasta: string;
+}
+
+const ELEMENT_DATA: PeriodicElement[] = [
+  { dia: 'Lunes', desde: '06:00', hasta: '13:00' },
+  { dia: 'Martes', desde: '08:00', hasta: '15:00' },
+  { dia: 'Miercoles', desde: '12:00', hasta: '19:00' },
+  { dia: 'Jueves', desde: '06:00', hasta: '13:00' },
+  { dia: 'Viernes', desde: 'Dia libre', hasta: 'Dia libre' },
+  { dia: 'Sabado', desde: '12:00', hasta: '19:00' },
+  { dia: 'Domingo', desde: '09:00', hasta: '12:00' },
+];
+
 @Component({
   selector: 'app-horario-medico',
   templateUrl: './horario-medico.component.html',
   styleUrls: ['./horario-medico.component.css'],
 })
 export class HorarioMedicoComponent implements OnInit {
-  public dias: [string, string, string, string, string];
-  public inicia: [string, string, string, string, string];
-  public termina: [string, string, string, string, string];
+  displayedColumns: string[] = ['dia', 'desde', 'hasta'];
+  dataSource = ELEMENT_DATA;
 
-  constructor() {
-    this.dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes'];
-    this.inicia = ['06:00AM', '12:00PM', '06:00AM', '12:00PM', '06:00AM'];
-    this.termina = ['12:00PM', '08:00PM', '12:00PM', '08:00PM', '12:00PM'];
-  }
+  constructor() {}
 
   ngOnInit(): void {}
 }

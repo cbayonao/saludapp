@@ -1,19 +1,8 @@
-<!-- <div>
-  <p>{{ titulo }}</p>
-  <input type="date" id="{{ time }}" name="{{ time }}" />
-</div> -->
-
-<!-- <mat-form-field>
-  <input matInput [matDatepicker]="myDatepicker" />
-  <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
-  <mat-datepicker #myDatepicker></mat-datepicker>
-</mat-form-field> -->
-
 <mat-form-field appearance="fill">
   <mat-label>{{ titulo }}</mat-label>
   <input matInput [matDatepicker]="picker" />
   <mat-datepicker-toggle matSuffix [for]="picker">
-    <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+    <mat-icon matDatepickerToggleIcon>calendar_today</mat-icon>
   </mat-datepicker-toggle>
   <mat-datepicker #picker></mat-datepicker>
 </mat-form-field>
