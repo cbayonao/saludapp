@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "saludApp2/",
+    "public": "dist/saludApp2",
     "ignore": [
       "firebase.json",
       "**/.*",
