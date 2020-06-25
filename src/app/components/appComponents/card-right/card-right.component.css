@@ -9,19 +9,6 @@ button {
   justify-content: center;
 }
 
-.containerCard {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 2em;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
 .action {
   justify-content: center;
 }
