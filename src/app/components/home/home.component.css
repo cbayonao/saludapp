@@ -7,3 +7,12 @@ h3 {
   font-size: 30px;
   margin-left: 2.7em;
 }
+
+.saludo {
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+}
+.containerHome {
+  margin-top: 3em;
+}
