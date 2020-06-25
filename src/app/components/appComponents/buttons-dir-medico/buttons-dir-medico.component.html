@@ -1,4 +1,12 @@
 <div>
-  <button mat-raised-button color="primary">{{ options[0] }}</button>
-  <button mat-raised-button color="warn">{{ options[1] }}</button>
+  <button mat-raised-button onclick="location.href='/agenda'" color="primary">
+    {{ options[0] }}
+  </button>
+  <button
+    mat-raised-button
+    onclick="location.href='/cotizacirugia'"
+    color="secondary"
+  >
+    {{ options[1] }}
+  </button>
 </div>
