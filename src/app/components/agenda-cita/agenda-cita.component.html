@@ -3,26 +3,26 @@
     <span>{{ titlePage }}</span>
     <span class="example-fill-remaining-space"></span>
   </mat-toolbar>
-  <div class="containerForm">
-    <h2 class="title">Ingresa los detalles de tu cita</h2>
+  <mat-card>
     <form>
-      <div>
-        <mat-card>
+      <h2 class="title">Ingresa los detalles de tu cita</h2>
+      <mat-card>
+        <div class="containerAgendaform">
           <app-form-sede></app-form-sede>
           <app-form-especialidad></app-form-especialidad>
           <app-form-medico></app-form-medico>
           <app-form-date></app-form-date>
           <app-form-hour></app-form-hour>
-        </mat-card>
-        <div class="data-personal">
-          <app-form-data-user></app-form-data-user>
         </div>
-        <div class="button">
-          <button mat-raised-button color="accent">{{ nameBut }}</button>
-        </div>
+      </mat-card>
+      <div class="data-personal">
+        <app-form-data-user></app-form-data-user>
+      </div>
+      <div class="button">
+        <button mat-raised-button color="accent">{{ nameBut }}</button>
       </div>
     </form>
-  </div>
+  </mat-card>
 </div>
 
 <app-main-footer></app-main-footer>

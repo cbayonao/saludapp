@@ -9,7 +9,7 @@ button {
   justify-content: center;
 }
 
-.containerCard {
+/* .containerCard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,7 +20,7 @@ button {
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
-}
+} */
 
 .action {
   justify-content: center;
