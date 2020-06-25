@@ -16,9 +16,19 @@
 }
 
 mat-card {
-  width: 250px;
+  width: 97.8%;
 }
 
 mat-form-field {
   text-align: center;
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  mat-form-field {
+    width: 250px;
+  }
+  mat-card {
+    width: 300px;
+  }
 }

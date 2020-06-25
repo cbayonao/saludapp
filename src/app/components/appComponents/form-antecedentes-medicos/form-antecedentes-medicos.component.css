@@ -1,6 +1,13 @@
 mat-form-field {
   text-align: center;
+  width: 500px;
 }
-mat-label {
-  word-break: break-all;
+
+@media (max-width: 768px) {
+  mat-form-field {
+    width: 250px;
+  }
+  mat-card {
+    width: 300px;
+  }
 }
