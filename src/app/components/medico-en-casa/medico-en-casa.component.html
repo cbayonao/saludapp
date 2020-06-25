@@ -1,19 +1,19 @@
-<div class="containerMedicoKsa {">
+<div class="containerMedicoKsa">
   <mat-toolbar color="primary">
     <span>{{ titulo }}</span>
     <span class="example-fill-remaining-space"></span>
   </mat-toolbar>
   <div>
     <form>
-      <div class="containerInput">
+      <mat-card>
         <app-form-tu-direccion></app-form-tu-direccion>
-      </div>
-      <div class="containerInput">
-        <app-form-date></app-form-date>
-      </div>
-      <div class="containerInput">
-        <app-form-hour></app-form-hour>
-      </div>
+        <mat-card>
+          <app-form-date></app-form-date>
+        </mat-card>
+        <mat-card>
+          <app-form-hour></app-form-hour>
+        </mat-card>
+      </mat-card>
       <app-form-data-user></app-form-data-user>
       <button mat-raised-button color="primary">{{ nameBut }}</button>
     </form>
