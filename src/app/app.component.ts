@@ -8,17 +8,6 @@ import { Data } from './models/data';
 })
 export class AppComponent implements OnInit {
   data: Data[] = [];
-
-  constructor(public dataService: DataService) {}
-  ngOnInit() {
-    this.dataService.getData().subscribe(
-      (data) => {
-        console.log(data);
-        this.data = data;
-      },
-      (err) => console.log(err)
-    );
-  }
   title = 'saludApp2';
   links = [
     { path: '/home', icon: 'landing', label: 'landing' },
@@ -31,4 +20,14 @@ export class AppComponent implements OnInit {
     { path: '/cotizacirugia', icon: 'cotizacirugia', label: 'cotizacirugia' },
     { path: '/medicoencasa', icon: 'medicoencasa', label: 'medicoencasa' },
   ];
+  constructor(public dataService: DataService) {}
+  ngOnInit() {
+    this.dataService.getData().subscribe(
+      (data) => {
+        console.log(data);
+        this.data = data;
+      },
+      (err) => console.log(err)
+    );
+  }
 }

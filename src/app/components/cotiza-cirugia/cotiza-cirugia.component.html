@@ -3,11 +3,13 @@
     <span>{{ titulo }}</span>
     <span class="example-fill-remaining-space"></span>
   </mat-toolbar>
-  <form>
-    <app-card-generales></app-card-generales>
-    <app-card-especiales></app-card-especiales>
-    <app-form-data-user></app-form-data-user>
-    <button mat-raised-button color="primary">{{ accion }}</button>
-  </form>
+  <mat-card class="containerCard">
+    <form>
+      <app-card-generales></app-card-generales>
+      <app-card-especiales></app-card-especiales>
+      <app-form-data-user></app-form-data-user>
+      <button mat-raised-button color="primary">{{ accion }}</button>
+    </form>
+  </mat-card>
 </div>
 <app-main-footer></app-main-footer>
