@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// Angular material
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -17,6 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatNativeDateModule } from '@angular/material/core';
 
+// Components
 import { Page404Component } from './components/page404/page404.component';
 import { AgendaCitaComponent } from './components/agenda-cita/agenda-cita.component';
 import { HomeComponent } from './components/home/home.component';
@@ -29,7 +30,6 @@ import { ButtonsDirMedicoComponent } from './components/appComponents/buttons-di
 import { CardMedicoComponent } from './components/appComponents/card-medico/card-medico.component';
 import { CardEspecialesComponent } from './components/appComponents/card-especiales/card-especiales.component';
 import { CardGeneralesComponent } from './components/appComponents/card-generales/card-generales.component';
-import { ContainerCardMedicoComponent } from './components/appComponents/container-card-medico/container-card-medico.component';
 import { FormAntecedentesMedicosComponent } from './components/appComponents/form-antecedentes-medicos/form-antecedentes-medicos.component';
 import { FormDataUserComponent } from './components/appComponents/form-data-user/form-data-user.component';
 import { FormDateComponent } from './components/appComponents/form-date/form-date.component';
@@ -46,7 +46,6 @@ import { FormTipoProcedimientoComponent } from './components/appComponents/form-
 import { FormTuDireccionComponent } from './components/appComponents/form-tu-direccion/form-tu-direccion.component';
 import { HorarioMedicoComponent } from './components/appComponents/horario-medico/horario-medico.component';
 import { MainFooterComponent } from './components/appComponents/main-footer/main-footer.component';
-import { MainHeaderComponent } from './components/appComponents/main-header/main-header.component';
 import { NavbarDirectorioComponent } from './components/appComponents/navbar-directorio/navbar-directorio.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -69,7 +68,6 @@ import { MatListModule } from '@angular/material/list';
     CardMedicoComponent,
     CardEspecialesComponent,
     CardGeneralesComponent,
-    ContainerCardMedicoComponent,
     FormAntecedentesMedicosComponent,
     FormDataUserComponent,
     FormDateComponent,
@@ -86,7 +84,6 @@ import { MatListModule } from '@angular/material/list';
     FormTuDireccionComponent,
     HorarioMedicoComponent,
     MainFooterComponent,
-    MainHeaderComponent,
     NavbarDirectorioComponent,
     MainNavComponent,
   ],
