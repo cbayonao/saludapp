@@ -3,20 +3,18 @@
     <span>{{ titulo }}</span>
     <span class="example-fill-remaining-space"></span>
   </mat-toolbar>
-  <div>
+  <mat-card>
     <form>
-      <mat-card>
+      <div class="containerMedCasaForm">
         <app-form-tu-direccion></app-form-tu-direccion>
-        <mat-card>
-          <app-form-date></app-form-date>
-        </mat-card>
-        <mat-card>
-          <app-form-hour></app-form-hour>
-        </mat-card>
-      </mat-card>
+        <app-form-date></app-form-date>
+        <app-form-hour></app-form-hour>
+      </div>
       <app-form-data-user></app-form-data-user>
-      <button mat-raised-button color="primary">{{ nameBut }}</button>
+      <div class="button">
+        <button mat-raised-button color="accent">{{ nameBut }}</button>
+      </div>
     </form>
-  </div>
+  </mat-card>
 </div>
 <app-main-footer></app-main-footer>

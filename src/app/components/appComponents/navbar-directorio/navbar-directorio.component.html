@@ -1,5 +1,10 @@
-<button class="menu" mat-button [matMenuTriggerFor]="menu">
-  Menu
+<button
+  mat-button
+  color="secondary"
+  [matMenuTriggerFor]="menu"
+  aria-label="Example icon button with a menu icon"
+>
+  <mat-icon>menu</mat-icon>
 </button>
 <!-- onclick va con funciones que permitan consultar los endpoints del API -->
 <mat-menu #menu="matMenu">

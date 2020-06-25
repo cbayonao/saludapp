@@ -3,12 +3,16 @@
     <span>{{ titulo }}</span>
     <span class="example-fill-remaining-space"></span>
   </mat-toolbar>
-  <mat-card class="containerCard">
+  <mat-card>
     <form>
-      <app-card-generales></app-card-generales>
-      <app-card-especiales></app-card-especiales>
+      <div class="containerCirugiaform">
+        <app-card-generales></app-card-generales>
+        <app-card-especiales></app-card-especiales>
+      </div>
       <app-form-data-user></app-form-data-user>
-      <button mat-raised-button color="primary">{{ accion }}</button>
+      <div class="button">
+        <button mat-raised-button color="accent">{{ accion }}</button>
+      </div>
     </form>
   </mat-card>
 </div>

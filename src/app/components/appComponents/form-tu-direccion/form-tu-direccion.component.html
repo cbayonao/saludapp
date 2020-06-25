@@ -1,19 +1,15 @@
-<div>
-  <p>{{ titulo }}</p>
-  <mat-card>
-    <mat-form-field appearance="fill">
-      <mat-label>Ingresa tu dirección</mat-label>
-      <input matInput placeholder="Ingresa tu dirección" value="" />
-    </mat-form-field>
-  </mat-card>
-  <mat-card>
-    <mat-form-field appearance="fill">
-      <mat-label>Escoge una ciudad</mat-label>
-      <mat-select>
-        <mat-option *ngFor="let option of options" [value]="option.value">
-          {{ option.viewValue }}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
-  </mat-card>
+<div class="containerTuDir">
+  <h2>{{ titulo }}</h2>
+  <mat-form-field appearance="fill">
+    <mat-label>Ciudad de residencia</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let option of options" [value]="option.value">
+        {{ option.viewValue }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Ingresa tu dirección</mat-label>
+    <input matInput placeholder="Ingresa tu dirección" value="" />
+  </mat-form-field>
 </div>
