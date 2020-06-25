@@ -20,12 +20,12 @@ export class CardRightComponent implements OnInit {
     this.detalle1 =
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
     this.nameBut1 = 'Agendar';
-    this.urlImg1 = 'https://source.unsplash.com/hIgeoQjS_iE/1600x900';
+    this.urlImg1 = 'https://source.unsplash.com/hIgeoQjS_iE/800x450';
     this.titulo2 = 'Directorio de médicos';
     this.detalle2 =
       'Phasellus et sapien egestas, hendrerit odio ut, aliquam eros. Aenean felis nibh, venenatis vitae pellentesque at, commodo id purus. Mauris a felis eget sapien euismod placerat. In tempor iaculis diam vel vulputate. Donec ultricies tincidunt urna, in placerat lectus porttitor et. Nulla et pulvinar diam.';
     this.nameBut2 = 'Buscar médico';
-    this.urlImg2 = 'https://source.unsplash.com/afW1hht0NSs/1600x900';
+    this.urlImg2 = 'https://source.unsplash.com/afW1hht0NSs/800x450';
   }
 
   ngOnInit(): void {}
